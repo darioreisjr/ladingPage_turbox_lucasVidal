@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+    @apply overflow-y-scroll; 
+  }
+  
+  body::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    @apply bg-orange-400 rounded-md; 
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    @apply bg-orange-600; 
+  }
+  
+  body::-webkit-scrollbar-track {
+    @apply bg-orange-50 rounded-md; 
+  }
