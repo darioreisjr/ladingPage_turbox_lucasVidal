@@ -7,7 +7,7 @@ export interface Plan {
 }
 
 export interface Feature {
-    icon: React.FC<{ className?: string; size?: number }>;
+    icon: string | number
     title: string;
     description: string;
 }

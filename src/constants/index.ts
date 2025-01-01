@@ -20,7 +20,8 @@ export const PLANS: Plan[] = [
             'Programação Adultos [Opcional]',
             'Rádios Online',
             'Cortesias: Pacote Filmes e Séries'
-        ]
+        ],
+        image: 'IptvB01.png'
     },
     // Add other plans...
 ];
@@ -29,7 +30,7 @@ export const FEATURES: Feature[] = [
     {
         icon: Shield,
         title: 'Proteção',
-        description: 'Estamos sempre atentos as novas tecnologias de proteção para prestarmos o melhor produto.'
+        description: 'Estamos sempre atentos as novas tecnologias de proteção para prestarmos o melhor produto.
     },
     // Add other features...
 ];
