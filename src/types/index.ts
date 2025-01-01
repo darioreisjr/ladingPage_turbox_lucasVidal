@@ -7,9 +7,10 @@ export interface Plan {
 }
 
 export interface Feature {
-    icon: string | number
+    icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
     title: string;
     description: string;
+
 }
 
 export interface FAQ {

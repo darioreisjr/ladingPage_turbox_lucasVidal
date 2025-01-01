@@ -1,6 +1,6 @@
 import { Check, ShoppingCart } from 'lucide-react';
-import { createWhatsAppUrl } from '../utils/whatsapp';
-import { PLANS } from '../constants/plans';
+import { createWhatsAppUrl } from '../utils/whatsapp.ts';
+import { PLANS } from '../constants/plans.ts';
 
 const Plans = () => {
     const handleSubscribe = (plan: string, price: string) => {

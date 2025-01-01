@@ -1,5 +1,5 @@
 import { Shield } from 'lucide-react';
-import type { Plan, Feature, FAQ } from '../types';
+import type { Plan, Feature, FAQ } from '../types/index.ts';
 
 export const WHATSAPP_NUMBER = '5511930474470';
 export const WHATSAPP_BASE_URL = 'https://wa.me';
@@ -30,7 +30,7 @@ export const FEATURES: Feature[] = [
     {
         icon: Shield,
         title: 'Proteção',
-        description: 'Estamos sempre atentos as novas tecnologias de proteção para prestarmos o melhor produto.
+        description: 'Estamos sempre atentos as novas tecnologias de proteção para prestarmos o melhor produto.'
     },
     // Add other features...
 ];
