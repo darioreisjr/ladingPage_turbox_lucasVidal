@@ -1,4 +1,3 @@
-import React from 'react';
 import { Shield, CreditCard, Headphones, Server, Smartphone, DollarSign } from 'lucide-react';
 
 const features = [

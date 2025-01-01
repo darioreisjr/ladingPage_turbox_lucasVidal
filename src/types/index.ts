@@ -1,28 +1,28 @@
 export interface Plan {
-  name: string;
-  price: string;
-  period: string;
-  image: string;
-  features: string[];
+    name: string;
+    price: string;
+    period: string;
+    image: string;
+    features: string[];
 }
 
 export interface Feature {
-  icon: React.FC<{ className?: string; size?: number }>;
-  title: string;
-  description: string;
+    icon: React.FC<{ className?: string; size?: number }>;
+    title: string;
+    description: string;
 }
 
 export interface FAQ {
-  question: string;
-  answer: string;
+    question: string;
+    answer: string;
 }
 
 export interface WhatsAppFormData {
-  name: string;
-  plan: string;
+    name: string;
+    plan: string;
 }
 
 export interface NavItem {
-  to: string;
-  label: string;
+    to: string;
+    label: string;
 }

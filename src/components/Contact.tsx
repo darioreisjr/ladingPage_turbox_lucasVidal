@@ -10,8 +10,8 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would typically handle the form submission
-    // For now, we'll just log the data
+    // Aqui você normalmente lidaria com o envio do formulário
+    // Por enquanto, vamos apenas registrar os dados
     console.log(formData);
   };
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Phone, Mail, MapPin, Download } from 'lucide-react';
 
 const Footer = () => {
@@ -33,7 +32,7 @@ const Footer = () => {
               </a>
               <a href="mailto:contato@turbox.com" className="flex items-center gap-2 hover:text-orange-500">
                 <Mail size={20} />
-                contato@turbox.com
+                contato@turbox.com.br
               </a>
               <div className="flex items-center gap-2">
                 <MapPin size={20} />
@@ -45,7 +44,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4">Formas de Pagamento</h3>
             <div className="grid grid-cols-3 gap-4">
-              {/* Add payment method icons here */}
+              {/* Adicione ícones de forma de pagamento aqui */}
               <div className="bg-white/10 p-2 rounded-lg"></div>
               <div className="bg-white/10 p-2 rounded-lg"></div>
               <div className="bg-white/10 p-2 rounded-lg"></div>
@@ -54,7 +53,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
-          <p>© 2024 TURBOX. Todos os direitos reservados.</p>
+          <p>© 2025 TURBOX. Todos os direitos reservados.</p>
           <div className="mt-2 text-sm text-gray-400">
             SITE SEGURO 100% PROTEGIDO
           </div>

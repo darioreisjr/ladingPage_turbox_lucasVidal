@@ -1,7 +1,6 @@
-import React from 'react';
 import { Link } from 'react-scroll';
 import { X } from 'lucide-react';
-import { NavItem } from '../types';
+import { NavItem } from '../types'
 
 interface MobileMenuProps {
   isOpen: boolean;
@@ -24,7 +23,7 @@ const MobileMenu = ({ isOpen, onClose, navItems }: MobileMenuProps) => {
             <X size={24} />
           </button>
         </div>
-        
+
         <nav className="flex flex-col items-center justify-center flex-1 gap-8">
           {navItems.map((item) => (
             <Link
@@ -38,9 +37,9 @@ const MobileMenu = ({ isOpen, onClose, navItems }: MobileMenuProps) => {
               {item.label}
             </Link>
           ))}
-          
-          <a 
-            href="https://wa.me/5511999999999"
+
+          <a
+            href="https://wa.me/5511930474470"
             target="_blank"
             rel="noopener noreferrer"
             onClick={onClose}
