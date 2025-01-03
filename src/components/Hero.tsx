@@ -1,8 +1,7 @@
 import { Download, Play } from 'lucide-react';
-
 const Hero = () => {
   return (
-    <section 
+    <section
       className="min-h-screen flex items-center justify-center bg-cover bg-center bg-fixed text-white"
       style={{
         backgroundImage: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://images.unsplash.com/photo-1635805737707-575885ab0820")'
@@ -16,16 +15,22 @@ const Hero = () => {
         <p className="text-xl mb-8">
           Quer assistir tudo o que quiser? A TURBOX tem a solução pra Você.
         </p>
-        
+
         <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-          <button className="flex items-center gap-2 bg-orange-500 px-6 py-3 rounded-full hover:bg-orange-600 transition-colors">
-            <Play size={20} />
-            TESTE GRÁTIS 3H
-          </button>
-          
+          <a href="https://api.whatsapp.com/send?phone=5511930474470&text=Ola%20Lucas%20%0ATudo%20bem?%0AQueria%20fazer%20o%20teste%20do%20TurboX%20%0Acomo%20fa%C3%A7o?"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="flex items-center gap-2 bg-orange-500 px-6 py-3 rounded-full hover:bg-orange-600 transition-colors">
+              <Play size={20} />
+              TESTE GRÁTIS 3H
+            </button>
+          </a>
+
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[1, 2, 3, 'PC'].map((app) => (
-              <button 
+              <button
                 key={app}
                 className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full hover:bg-white/20 transition-colors"
               >
