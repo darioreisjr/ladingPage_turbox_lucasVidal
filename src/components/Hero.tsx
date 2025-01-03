@@ -26,18 +26,43 @@ const Hero = () => {
               TESTE GRÁTIS 3H
             </button>
           </a>
-
-
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[1, 2, 3, 'PC'].map((app) => (
+            <a href="https://appsturbox.winytvbr.com/control/actions/aplicativos/030624123556.apk" target="_blank" rel="noreferrer">
               <button
-                key={app}
                 className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full hover:bg-white/20 transition-colors"
               >
                 <Download size={20} />
-                APP {app}
+                APP 1
               </button>
-            ))}
+            </a>
+
+            <a href="https://appsturbox.winytvbr.com/control/actions/aplicativos/030624011448.apk" target="_blank" rel="noreferrer">
+              <button
+                className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full hover:bg-white/20 transition-colors"
+              >
+                <Download size={20} />
+                APP 2
+              </button>
+            </a>
+
+            <a href="https://appsturbox.winytvbr.com/control/actions/aplicativos/030624124124.apk" target="_blank" rel="noreferrer">
+              <button
+                className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full hover:bg-white/20 transition-colors"
+              >
+                <Download size={20} />
+                APP 3
+              </button>
+            </a>
+
+            <a href="https://iptv-smarters-pro.br.uptodown.com/windows" target="_blank" rel="noreferrer">
+              <button
+                className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full hover:bg-white/20 transition-colors"
+              >
+                <Download size={20} />
+                PC
+              </button>
+            </a>
+
           </div>
         </div>
       </div>
