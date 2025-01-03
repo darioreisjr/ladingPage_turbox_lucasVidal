@@ -108,5 +108,5 @@ Desenvolver o projeto TURBOX permitiu aprofundar conhecimentos em React, TypeScr
 
 ## Licença
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/darioreisjr/ladingPage_turbox_lucasVidal/tree/main?tab=MIT-1-ov-file#)
 
