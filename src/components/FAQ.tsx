@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     question: 'POSSO TESTAR ANTES DE ASSINAR ?',
-    answer: 'Sim. Disponibilizamos um teste grátis de 2 horas, justamente para você poder conhecer todos os nossos canais, filmes e séries e também para você ver como irá rodar na sua internet. Veja nossos tutoriais antes de solicitar seu teste.'
+    answer: 'Sim. Disponibilizamos um teste grátis de 3 horas, justamente para você poder conhecer todos os nossos canais, filmes e séries e também para você ver como irá rodar na sua internet. Veja nossos tutoriais antes de solicitar seu teste.'
   },
   {
     question: 'COMO FUNCIONA O PAGAMENTO ?',
@@ -36,7 +36,7 @@ const FAQ = () => {
 
         <div className="max-w-3xl mx-auto space-y-4">
           {faqs.map((faq, index) => (
-            <div 
+            <div
               key={index}
               className="bg-white rounded-lg shadow-md overflow-hidden"
             >
@@ -51,7 +51,7 @@ const FAQ = () => {
                   <ChevronDown className="text-orange-500" />
                 )}
               </button>
-              
+
               {openIndex === index && (
                 <div className="p-4 pt-0 text-gray-600">
                   {faq.answer}
